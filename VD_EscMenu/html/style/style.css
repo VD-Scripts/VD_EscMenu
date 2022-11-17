@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5vh;
+    font-weight: 700;
+}
+
+#condainer{
+    position: absolute;
+    top: 50%;
+    left: 89.95%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 20vw;
+    background: linear-gradient(to top, rgba(167, 0, 139, 0.7), rgba(0, 0, 0, 0.8));
+    box-shadow: 0 0.8vh 3.2vh rgb(49, 0, 45);
+    border-left: 0.2vh solid rgba(167, 0, 139, 0.7);
+    overflow: hidden;
+}
+
+.regulamentmen{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+    height: 80vh;
+    width: 100vh;
+    background: linear-gradient(140deg, rgba(167, 0, 139, 0.7), transparent);
+    border: 0.2vh solid rgba(167, 0, 139, 0.7);
+    border-radius: 2vh;
+}
+
+.regulamentmen1{
+    font-size: 4vh;
+    margin-top: -3vh;
+    margin-left: -1vh;
+    text-shadow: 0 1vh 1vh black;
+}
+
+.jhonny{
+    background: linear-gradient(to right, transparent, rgba(167, 0, 139, 0.7), transparent);
+    width: 50%;
+    height: 0.3vh;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 10%;
+}
+
+.para{
+    width:55vw;
+    text-align: center;
+    line-height: 4vh;
+    margin-left: 1vh;
+    margin-top: 4vh;
+    font-size: 2.3vh;
+}
+
+.sidebar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-row-gap: 4vh;
+    filter: none;
+    text-align: center;
+}
+
+.discord{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 2vh;
+    width: 8vw;
+    padding: 1.3vh;
+    background: linear-gradient(to right, rgb(138, 0, 138), transparent 50%);
+    border-left: 0.4vh solid rgba(202, 28, 173);
+    border-radius: 1vh;
+    line-height: 2vh;
+}
+
+.discord2{
+    opacity: 70%;
+    font-size: 1.5vh;
+    font-weight: 300;
+}
+
+.panel{
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    font-size: 2vh;
+    width: 8vw;
+    padding: 1.3vh;
+    background: linear-gradient(to left, rgb(138, 0, 138), transparent 50%);
+    border-radius: 1vh;
+    line-height: 2vh;
+    border-right: 0.4vh solid rgba(202, 28, 173);
+    text-align: right;
+}
+
+.panel2{
+    opacity: 70%;
+    font-size: 1.5vh;
+    font-weight: 300;
+}
+
+.nume1{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vh;
+    color: rgb(255, 0, 212);
+    text-shadow: 0 1vh 1vh black;
+}
+
+.nume2{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 6vh;
+}
+
+/* ---------------------------------*/
+
+.reia{
+    padding: 1vh;
+    width: 10vw;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.reia:hover{
+    background: rgb(187, 0, 187);
+    box-shadow: 0 0 4vh purple;
+}
+
+/* ---------------------------------*/
+
+.mapa{
+    padding: 1vh;
+    width: 10vw;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.mapa:hover{
+    background: rgb(187, 0, 187);
+    box-shadow: 0 0 4vh purple;
+}
+
+/* ---------------------------------*/
+
+.setari{
+    padding: 1vh;
+    width: 10vw;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.setari:hover{
+    background: rgb(187, 0, 187);
+    box-shadow: 0 0 4vh purple;
+}
+
+/* ---------------------------------*/
+
+.paraseste{
+    padding: 1vh;
+    width: 10vw;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.paraseste:hover{
+    background: rgb(187, 0, 187);
+    box-shadow: 0 0 4vh purple;
+}
+
+/* ---------------------------------*/
+
+.regulament{
+    padding: 1vh;
+    width: 11vw;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.regulament:hover{
+    background: rgb(187, 0, 187);
+    box-shadow: 0 0 4vh purple;
+}
